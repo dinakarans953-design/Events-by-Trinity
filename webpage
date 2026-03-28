@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events by Trinity Sports</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #000;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: #000;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid gold;
+}
+
+nav a {
+    color: gold;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1519741497674-611481863552') center/cover;
+    padding: 140px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.3em;
+    color: gold;
+}
+
+section {
+    padding: 70px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+.services, .solutions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.testimonials {
+    display: grid;
+    gap: 20px;
+}
+
+.testimonial {
+    background: #111;
+    padding: 20px;
+    border-left: 3px solid gold;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: gold;
+    color: black;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid gold;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header>
+    <h1>Events by Trinity Sports</h1>
+    <p>Luxury Events. Crafted Within Your Budget.</p>
+</header>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center;">
+        We specialize in birthdays, engagements, weddings, and sports events with
+        a strong focus on customization and budget flexibility.
+    </p>
+    <p style="text-align:center;">
+        From intimate celebrations to destination weddings in Goa, Kerala, and Hyderabad,
+        we deliver unforgettable experiences.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">Birthdays</div>
+        <div class="card">Engagements</div>
+        <div class="card">Weddings</div>
+        <div class="card">Sports Events</div>
+        <div class="card">Destination Weddings</div>
+    </div>
+</section>
+
+<section>
+    <h2>Wedding Packages</h2>
+    <p style="text-align:center;">
+        Full Hindu wedding planning including Haldi, Mehendi, Sangeet & Wedding.
+        Starting from <strong>₹4.5 Lakhs</strong>.
+    </p>
+</section>
+
+<section class="solutions">
+    <h2>Complete Event Solutions</h2>
+    <div class="card">Venue Management</div>
+    <div class="card">Décor & Lighting</div>
+    <div class="card">Catering</div>
+    <div class="card">Photography</div>
+    <div class="card">Makeup Artists</div>
+    <div class="card">DJ, Dhol & Emcee</div>
+    <div class="card">Guest Management</div>
+    <div class="card">Return Gifts</div>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1520857014576-2c4f4c972b57">
+        <img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329">
+        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed">
+        <img src="https://images.unsplash.com/photo-1529634896057-1d5d1c7d1d2b">
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>Client Testimonials</h2>
+    <div class="testimonials">
+        <div class="testimonial">
+            “Amazing experience! Everything was handled perfectly within our budget.”
+        </div>
+        <div class="testimonial">
+            “Our Goa wedding was beautifully executed. Highly professional team.”
+        </div>
+        <div class="testimonial">
+            “Best event planners for customized decor and smooth management.”
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">
+        📞 Your Number <br>
+        📧 Your Email <br>
+        📍 Your City
+    </p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX" target="_blank">💬</a>
+
+<footer>
+    <p>© 2026 Events by Trinity Sports</p>
+</footer>
+
+</body>
+</html>
